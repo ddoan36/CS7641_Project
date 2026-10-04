@@ -1,102 +1,126 @@
-@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Press+Start+2P&display=swap');
 
-/* Global Minecraft Theme */
-body {
-  background-color: #1e1e24 !important;
-  color: #e0e0e0 !important;
-  font-family: 'VT323', monospace !important;
-  font-size: 21px !important;
-  line-height: 1.4 !important;
-  letter-spacing: 0.5px !important;
+:root {
+  color-scheme: light;
+  --page-gray: #e9eaee;
+  --panel-white: #ffffff;
+  --text-dark: #272a30;
+  --text-muted: #666b73;
+  --grass-green: #4f8d1f;
+  --link-blue: #3478c8;
+  --stone-gray: #737982;
 }
 
-/* Sidebar / Header */
+body {
+  background-color: var(--page-gray) !important;
+  color: var(--text-dark) !important;
+  font-family: 'Inter', Arial, sans-serif !important;
+  font-size: 16px !important;
+  line-height: 1.7 !important;
+  letter-spacing: normal !important;
+}
+
+/* Keep the title area light and open, like the GANcraft project page. */
 .wrapper header {
-  background: rgba(30, 30, 30, 0.9) !important;
-  border: 4px solid #000000 !important;
-  box-shadow: inset -4px -4px 0px 0px #373737, inset 4px 4px 0px 0px #8e8e8e !important;
-  padding: 20px !important;
-  border-radius: 0px !important;
+  background: var(--page-gray) !important;
+  border: 0 !important;
+  border-top: 6px solid var(--grass-green) !important;
+  box-shadow: none !important;
+  padding: 28px 24px !important;
+  border-radius: 0 !important;
 }
 
 .wrapper header h1 {
-  font-family: 'VT323', monospace !important;
-  font-size: 40px !important;
-  color: #ffaa00 !important;
-  text-shadow: 3px 3px #3f2a00 !important;
+  font-family: 'Press Start 2P', 'Courier New', monospace !important;
+  font-size: clamp(14px, 2vw, 20px) !important;
+  line-height: 1.7 !important;
+  color: var(--grass-green) !important;
+  text-shadow: 2px 2px 0 #c8d7be !important;
 }
 
 .wrapper header p {
-  color: #cfcfcf !important;
-  font-size: 20px !important;
+  color: var(--text-muted) !important;
+  font-size: 15px !important;
 }
 
-/* Main Content Panel */
 .wrapper section {
-  background: rgba(40, 40, 40, 0.95) !important;
-  border: 4px solid #000000 !important;
-  box-shadow: inset -4px -4px 0px 0px #252525, inset 4px 4px 0px 0px #707070 !important;
-  padding: 30px !important;
-  border-radius: 0px !important;
+  background: var(--panel-white) !important;
+  border: 0 !important;
+  box-shadow: none !important;
+  padding: 32px !important;
+  border-radius: 10px !important;
 }
 
-/* Headings */
 h1, h2, h3, h4 {
-  font-family: 'VT323', monospace !important;
-  color: #ffffff !important;
-  text-shadow: 2px 2px #000000 !important;
-  letter-spacing: 1px !important;
+  font-family: 'Press Start 2P', 'Courier New', monospace !important;
+  color: var(--text-dark) !important;
+  text-shadow: none !important;
 }
 
 h2 {
-  font-size: 34px !important;
-  color: #55ff55 !important;
-  border-bottom: 3px solid #373737 !important;
-  padding-bottom: 6px !important;
+  font-family: 'Press Start 2P', 'Courier New', monospace !important;
+  font-size: 14px !important;
+  line-height: 1.8 !important;
+  color: var(--grass-green) !important;
+  border-bottom: 2px solid #dce2d7 !important;
+  padding-bottom: 10px !important;
   margin-top: 30px !important;
 }
 
-/* Minecraft Stone Button Navigation */
+a {
+  color: var(--link-blue) !important;
+}
+
 a.mc-btn {
   display: inline-block !important;
-  background: #737373 !important;
+  background: var(--stone-gray) !important;
   color: #ffffff !important;
   text-decoration: none !important;
-  font-family: 'VT323', monospace !important;
-  font-size: 22px !important;
-  padding: 4px 14px !important;
-  margin: 4px 2px !important;
-  border: 2px solid #000000 !important;
-  box-shadow: inset -2px -2px 0px 0px #373737, inset 2px 2px 0px 0px #aeaeae !important;
-  text-shadow: 2px 2px #202020 !important;
+  font-family: 'Press Start 2P', 'Courier New', monospace !important;
+  font-size: 10px !important;
+  line-height: 1.8 !important;
+  padding: 10px 12px !important;
+  margin: 4px 3px !important;
+  border: 2px solid #4c5158 !important;
+  box-shadow: inset -2px -2px 0 #565b63, inset 2px 2px 0 #aeb2b9 !important;
+  text-shadow: none !important;
   cursor: pointer !important;
 }
 
 a.mc-btn:hover {
-  background: #8c8c8c !important;
-  color: #ffff55 !important;
+  background: var(--grass-green) !important;
+  border-color: #386918 !important;
+  color: #ffffff !important;
 }
 
 a.mc-btn:active {
-  box-shadow: inset 2px 2px 0px 0px #373737, inset -2px -2px 0px 0px #aeaeae !important;
+  box-shadow: inset 2px 2px 0 #386918, inset -2px -2px 0 #76ac4e !important;
 }
 
-/* Code & Links */
 pre, code {
   font-family: 'Courier New', monospace !important;
-  background: #111111 !important;
-  border: 2px solid #000000 !important;
-  color: #55ffff !important;
-}
-
-a {
-  color: #55ffff !important;
+  background: #f1f2f4 !important;
+  border: 1px solid #d4d7dc !important;
+  color: #315d20 !important;
 }
 
 hr {
   border: 0 !important;
-  height: 4px !important;
-  background: #000000 !important;
-  box-shadow: 0 2px 0 0 #555555 !important;
+  height: 2px !important;
+  background: #d9dce1 !important;
   margin: 25px 0 !important;
+}
+
+@media (max-width: 600px) {
+  .wrapper header {
+    padding: 22px 16px !important;
+  }
+
+  .wrapper section {
+    padding: 22px 18px !important;
+  }
+
+  h2 {
+    font-size: 12px !important;
+  }
 }
