@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+// Global Minecraft Theme Variables
+$mc-dirt-dark: #4b3621;
+$mc-stone: #727272;
+$mc-stone-light: #8e8e8e;
+$mc-stone-dark: #373737;
+$mc-grass-green: #5b8731;
+$mc-gold: #ffaa00;
+$mc-sky: #1e1e24;
+
+body {
+  background-color: $mc-sky;
+  color: #e0e0e0;
+  font-family: 'VT323', monospace;
+  font-size: 20px;
+  line-height: 1.4;
+  letter-spacing: 0.5px;
+}
+
+// Side Header Panel
+.wrapper header {
+  background: rgba(30, 30, 30, 0.85);
+  border: 4px solid #000;
+  box-shadow: inset -4px -4px 0px 0px $mc-stone-dark, inset 4px 4px 0px 0px $mc-stone-light;
+  padding: 20px;
+  border-radius: 0px;
+
+  h1 {
+    font-family: 'VT323', monospace;
+    font-size: 38px;
+    color: $mc-gold;
+    text-shadow: 3px 3px #3f2a00;
+  }
+
+  p {
+    color: #cfcfcf;
+    font-size: 19px;
+  }
+}
+
+// Main Content Container
+.wrapper section {
+  background: rgba(45, 45, 45, 0.95);
+  border: 4px solid #000;
+  box-shadow: inset -4px -4px 0px 0px $mc-stone-dark, inset 4px 4px 0px 0px $mc-stone-light;
+  padding: 30px;
+  border-radius: 0px;
+}
+
+// Headings
+h1, h2, h3, h4 {
+  font-family: 'VT323', monospace;
+  color: #ffffff;
+  text-shadow: 2px 2px #000000;
+  letter-spacing: 1px;
+}
+
+h2 {
+  font-size: 32px;
+  color: #55ff55;
+  border-bottom: 3px solid #373737;
+  padding-bottom: 6px;
+  margin-top: 30px;
+}
+
+// Minecraft Stone Button Links
+a.mc-btn {
+  display: inline-block;
+  background: #737373;
+  color: #ffffff !important;
+  text-decoration: none;
+  font-family: 'VT323', monospace;
+  font-size: 22px;
+  padding: 4px 14px;
+  margin: 4px 2px;
+  border: 2px solid #000000;
+  box-shadow: inset -2px -2px 0px 0px #373737, inset 2px 2px 0px 0px #aeaeae;
+  text-shadow: 2px 2px #202020;
+  cursor: pointer;
+
+  &:hover {
+    background: #8c8c8c;
+    color: #ffff55 !important;
+  }
+
+  &:active {
+    box-shadow: inset 2px 2px 0px 0px #373737, inset -2px -2px 0px 0px #aeaeae;
+  }
+}
+
+// Code & Output Blocks
+pre, code {
+  font-family: 'Courier New', monospace;
+  background: #111111;
+  border: 2px solid #000000;
+  color: #55ffff;
+}
+
+// Dividers
+hr {
+  border: 0;
+  height: 4px;
+  background: #000;
+  box-shadow: 0 2px 0 0 #555555;
+  margin: 25px 0;
+}

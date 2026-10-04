@@ -1,8 +1,15 @@
 ---
 layout: default
+title: Real2Craft
 ---
 
-[Introduction](#introduction--background) • [Problem Definition](#problem-definition) • [Methods](#methods) • [Results & Discussion](#results-and-discussion) • [References](#references)
+<div style="margin-bottom: 25px;">
+  <a href="#introduction--background" class="mc-btn">Introduction</a>
+  <a href="#problem-definition" class="mc-btn">Problem Definition</a>
+  <a href="#methods" class="mc-btn">Methods</a>
+  <a href="#results-and-discussion" class="mc-btn">Results & Discussion</a>
+  <a href="#references" class="mc-btn">References</a>
+</div>
 
 ---
 

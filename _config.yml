@@ -3,4 +3,5 @@ plugins:
   - jekyll-remote-theme
   
 title: Real2Craft (Temp. Project Title)
-description: Group 7$:$ Alfred Diego Cueva Valverde, Junhyun Kim, Kyle Kam, Robert Brandon Azarcon, Davin Doan 
+description: "Group 7: Alfred Diego Cueva Valverde, Junhyun Kim, Kyle Kam, Robert Brandon Azarcon, Davin Doan"
+show_downloads: false
