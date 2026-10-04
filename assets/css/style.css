@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+/* Global Minecraft Theme */
+body {
+  background-color: #1e1e24 !important;
+  color: #e0e0e0 !important;
+  font-family: 'VT323', monospace !important;
+  font-size: 21px !important;
+  line-height: 1.4 !important;
+  letter-spacing: 0.5px !important;
+}
+
+/* Sidebar / Header */
+.wrapper header {
+  background: rgba(30, 30, 30, 0.9) !important;
+  border: 4px solid #000000 !important;
+  box-shadow: inset -4px -4px 0px 0px #373737, inset 4px 4px 0px 0px #8e8e8e !important;
+  padding: 20px !important;
+  border-radius: 0px !important;
+}
+
+.wrapper header h1 {
+  font-family: 'VT323', monospace !important;
+  font-size: 40px !important;
+  color: #ffaa00 !important;
+  text-shadow: 3px 3px #3f2a00 !important;
+}
+
+.wrapper header p {
+  color: #cfcfcf !important;
+  font-size: 20px !important;
+}
+
+/* Main Content Panel */
+.wrapper section {
+  background: rgba(40, 40, 40, 0.95) !important;
+  border: 4px solid #000000 !important;
+  box-shadow: inset -4px -4px 0px 0px #252525, inset 4px 4px 0px 0px #707070 !important;
+  padding: 30px !important;
+  border-radius: 0px !important;
+}
+
+/* Headings */
+h1, h2, h3, h4 {
+  font-family: 'VT323', monospace !important;
+  color: #ffffff !important;
+  text-shadow: 2px 2px #000000 !important;
+  letter-spacing: 1px !important;
+}
+
+h2 {
+  font-size: 34px !important;
+  color: #55ff55 !important;
+  border-bottom: 3px solid #373737 !important;
+  padding-bottom: 6px !important;
+  margin-top: 30px !important;
+}
+
+/* Minecraft Stone Button Navigation */
+a.mc-btn {
+  display: inline-block !important;
+  background: #737373 !important;
+  color: #ffffff !important;
+  text-decoration: none !important;
+  font-family: 'VT323', monospace !important;
+  font-size: 22px !important;
+  padding: 4px 14px !important;
+  margin: 4px 2px !important;
+  border: 2px solid #000000 !important;
+  box-shadow: inset -2px -2px 0px 0px #373737, inset 2px 2px 0px 0px #aeaeae !important;
+  text-shadow: 2px 2px #202020 !important;
+  cursor: pointer !important;
+}
+
+a.mc-btn:hover {
+  background: #8c8c8c !important;
+  color: #ffff55 !important;
+}
+
+a.mc-btn:active {
+  box-shadow: inset 2px 2px 0px 0px #373737, inset -2px -2px 0px 0px #aeaeae !important;
+}
+
+/* Code & Links */
+pre, code {
+  font-family: 'Courier New', monospace !important;
+  background: #111111 !important;
+  border: 2px solid #000000 !important;
+  color: #55ffff !important;
+}
+
+a {
+  color: #55ffff !important;
+}
+
+hr {
+  border: 0 !important;
+  height: 4px !important;
+  background: #000000 !important;
+  box-shadow: 0 2px 0 0 #555555 !important;
+  margin: 25px 0 !important;
+}
