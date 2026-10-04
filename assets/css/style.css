@@ -34,6 +34,7 @@ body {
   font-family: 'Press Start 2P', 'Courier New', monospace !important;
   font-size: clamp(14px, 2vw, 20px) !important;
   line-height: 1.7 !important;
+  text-align: center !important;
   color: var(--grass-green) !important;
   text-shadow: 2px 2px 0 #c8d7be !important;
 }
